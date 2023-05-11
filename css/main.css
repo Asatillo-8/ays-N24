@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+*:focus {
+  outline: 2px dashed #7296ec;
+  offset: 3px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -67,6 +72,17 @@ img {
   color: #2959CE;
 }
 .currency-rates-volue {
+
+}
+
+.global-search-form {
+  margin-right: 25px;
+}
+.global-search-form-input {
+  padding: 15px 20px 13px 40px;
+  border: 0;
+  border-radius: 60px;
+  line-height: normal;
 }
 
 .lang-toggle {
@@ -103,4 +119,30 @@ img {
 .button-primary {
   background: #7296EC;
   color: #fff ;
+}
+
+.site-header-bottom {
+}
+.site-header-bottom-container{
+  display: flex;
+  align-items: center;
+}
+.site-header-bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header-bottom-list {
+  list-style: none;
+
+}
+.site-header-bottom-list:not(:last-child) {
+  margin-right: px;
+}
+.site-header-bottom-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
 }
